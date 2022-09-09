@@ -36,15 +36,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
- https://www.formula1.com/
+  https://www.formula1.com/en/drivers/hall-of-fame.html
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina  
-<img width="1440" alt="Screenshot 2022-09-05 at 13 41 17" src="https://user-images.githubusercontent.com/91497923/188441078-c0fee161-8cb5-4b99-86a1-24f5f81e8693.png">
+  <img src="readme-images/screen1.jpg" width="375px" alt="Hall of Fame pagina van Formule 1">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/screen2.jpg" width="375px" alt="Omschrijvings pagina van de formule 1 coureur en zijn cariere.">
  
 </details>
 
@@ -59,27 +59,35 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Lijst met je bevindingen die in de test naar voren kwamen:
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  De website van de Formule 1 is goed te navigeren. Maar de screenreader neemt niet de grote rode navigation bar mee als hij de website begint voor te lezen.
+  Dit zorgt ervoor dat een groot deel van belangrijke informatie wordt overgeslagen. 
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  Mijn manier om dit op te lossen is om te proberen de navigation wel leesbaar te maken voor een screenreader
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+ deze test moet ik nog doen omdat ik het niet werkende kreeg....
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  De website van F1 is goed te bezoeken met een Motorieke beperking. het scrollen gaat gemakkelijk. en als je plotesling een knop indrukt dan kan je snel weer,  terug navigeren. Voor de rest als je bijvoorbeeld 2 vingers aan elkaar had was de website nog steeds goed te navigeren. Soms was het wat lastiger omdat voor Mac
+  een van de shortcuts met 2 vingers om de mousepad klikken is. 
+
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  De test met Dark/Light werkte niet omdat de Formule 1 website geen Darkmode Support. 
+  Maar de test met wazige visie en tunnelvisie zorgde ervoor dat ik erachter kwam dat de plaatjes niet altijd even scherp zijn voor iedereen
+  en de letters ook niet altijd te lezen zijn omdat deze te klein zijn.
+
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+    Ik ga dit oplossen door de plaatjes en het lettertype te vergroten zodat het beter leesbaar is. Ook ga ik ervoor zorgen dat er een Darkmode functie is voor de
+    website zodat de website ook toegankelijk is voor mensen die niet goed tegen vel licht kunnen.
 
 </details>
 
