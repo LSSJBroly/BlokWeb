@@ -40,11 +40,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina  
-  <img src="readme-images/screen1.jpg" width="375px" alt="Hall of Fame pagina van Formule 1">
+  <img src="readme-images/screen1.png" width="375px" alt="Hall of Fame pagina van Formule 1">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
-  <img src="readme-images/screen2.jpg" width="375px" alt="Omschrijvings pagina van de formule 1 coureur en zijn cariere.">
+  <img src="readme-images/screen2.png" width="375px" alt="Omschrijvings pagina van de formule 1 coureur en zijn cariere.">
  
 </details>
 
