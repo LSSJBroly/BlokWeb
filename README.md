@@ -99,11 +99,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/Breakdownschets.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/breakdownschets2.png" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
 
+  ### wellicht nog een dynamisch deel (bijv filter): 
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
@@ -116,19 +118,33 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details>
   <summary>uitwerken voor 1e voortgang</summary>
 
+
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  <img src="readme-images/voortgang1.jpg" width="375px" alt="1e versie van de pagina">
+  Wat ging goed:
+  - het opstellen van de website
+  - de content plaatsen op de website
+  - de juiste content vinden
+  - de juiste informatie vinden
 
+  Wat was lastig:
+  - het gebruiken van CSS Grid is nog best lastig
+  - het correct opstellen van de website is lastig
+  - de images de juiste grootte geven is lastig
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+  | Mike              | student 2          | student 3    | student 4        |
+  | ---               | ---                | ---          | ---              |
+  | ik wil bespreken  | en dit             | en ik dit    | en dan ik dat    |
+  | hoe ik de grid op | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | mijn website beter| ...                | ...          | ...              |
+  | maak en daardoor  |
+  | de website mooier |
+  | en dichter bij het|
+  | origineel maak    |
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
