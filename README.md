@@ -120,7 +120,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-  <img src="readme-images/voortgang1.jpg" width="375px" alt="1e versie van de pagina">
+  
+  
+  <img src="readme-images/voortgang1.png" width="375px" alt="1e versie van de pagina">
+  
   Wat ging goed:
   - het opstellen van de website
   - de content plaatsen op de website
