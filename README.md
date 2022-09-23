@@ -179,10 +179,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1  Mike    student 2 Quinesha | student 3  Deniz  | student 4 Michelle  |
+  | student 1  Mike  | student 2 Quinesha | student 3  Deniz  | student 4 Michelle  |
   | ---              | ---                | ---               | ---                 |
   | Responsive menu  | Responsiveness     | Responsiveness    | Responsiveness      |
-  | Hulp daarmee     | | nog een punt     | dit wil ik zeker  |                     |
+  | Hulp daarmee     |                    |                   |                     |
   | ...              | ...                | ...               | ...                 |
 
 
