@@ -99,11 +99,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="![Breakdownschets](https://user-images.githubusercontent.com/91497923/190631135-58988459-1439-458b-b707-9d9670a2f595.png)" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/Breakdownschets.png" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/breakdownschets2.png" width="375px" alt="breakdown van het menu">
-
+  <img src="readme-images/breakdownschets2.png" width="375px" alt="breakdown van een dynamisch deel">
 
 
 </details>
@@ -120,10 +119,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-  
-  
-  <img src="readme-images/voortgang1.png" width="375px" alt="1e versie van de pagina">
-  
+  <img src="readme-images/voortgang1.jpg" width="375px" alt="1e versie van de pagina">
   Wat ging goed:
   - het opstellen van de website
   - de content plaatsen op de website
@@ -151,10 +147,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+ - punt 1: van de articles List items maken
+  - punt 2: CSS Logischer neerzetten
+  - punt 3: Flex gebruiken IPV Grid
+  - punt 4: Begin met het maken van de website op basis van de Mobile view ipv de desktop view.
+
 
 </details>
 
@@ -169,16 +166,24 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  <img src="readme-images/Versie2.png" width="375px" alt="Foto van de hele pagina">
 
+  Dit ging beter dan verwacht: 
+  - De overstap van Flex naar Grid
+  - het responsive maken van de website
+
+  Dit is latig:
+  - Responsive menu maken
+  
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | student 1  Mike    student 2 Quinesha | student 3  Deniz  | student 4 Michelle  |
+  | ---              | ---                | ---               | ---                 |
+  | Responsive menu  | Responsiveness     | Responsiveness    | Responsiveness      |
+  | Hulp daarmee     | | nog een punt     | dit wil ik zeker  |                     |
+  | ...              | ...                | ...               | ...                 |
 
 
   ### Verslag van meeting
@@ -187,7 +192,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - punt 1
   - punt 2
   - nog een punt
-- ...
+  - ...
 
 </details>
 
