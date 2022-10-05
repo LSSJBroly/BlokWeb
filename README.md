@@ -119,7 +119,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-  <img src="readme-images/voortgang1.jpg" width="375px" alt="1e versie van de pagina">
+  <img src="readme-images/voortgang1.png" width="375px" alt="1e versie van de pagina">
   Wat ging goed:
   - het opstellen van de website
   - de content plaatsen op de website
@@ -340,7 +340,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Korte omschrijving met plaatjes
 
   <img src="readme-images/nietgelukt1.png" width="375px" alt="bummer">
-  <img src="readme-images/nietgelukt2.png" width="375px" alt="bummer">
+  <img src="readme-images/Nietgelukt2.png" width="375px" alt="bummer">
   <img src="readme-images/nietgelukt3.png" width="375px" alt="bummer">
 
   Wat voornamelijk lastig was, was in de laatste week het maken van de tweede pagina. Hier zat namelijk 2 image carousels in die zowel automatisch als handmatig doorheen gescrolld kon worden. Het is niet gelukt om dit 100% te doen dus heb ik ipv er van een animatie gemaakt die er doorheen gaat. 
