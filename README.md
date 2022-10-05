@@ -19,7 +19,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Mike Stolk
 
   #### Je startniveau:
-  Blauw
+  Blauw/Rood
 
   #### Je focus:
   Responsive
@@ -119,7 +119,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-  <img src="readme-images/voortgang1.png" width="375px" alt="1e versie van de pagina">
+  <img src="readme-images/voortgang1.jpg" width="375px" alt="1e versie van de pagina">
   Wat ging goed:
   - het opstellen van de website
   - de content plaatsen op de website
@@ -179,19 +179,25 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1  Mike  | student 2 Quinesha | student 3  Deniz  | student 4 Michelle  |
+  | student 1  Mike    student 2 Quinesha | student 3  Deniz  | student 4 Michelle  |
   | ---              | ---                | ---               | ---                 |
-  | Responsive menu  | Responsiveness     | Responsiveness    | Responsiveness      |
-  | Hulp daarmee     |                    |                   |                     |
-  | ...              | ...                | ...               | ...                 |
-
+  | Hoe maak ik een  | Hoe zet ik een     | Hoe maak ik de    | hoe maak ik een     |
+  | responsive menu  | carousel naast     | Adam/Barcelona    |  Uitklapbaar menu   |
+  | ...              |  een list          | button            | hoe zorg ik ervoor  |
+  | ...              |  ...               | Hoe maak je een   | det er min 2 en max |
+  | ...              |  ...               | Slideshow van     | 4 items op een rij  |
+  | ...              |  ...               | text              | staan               |
+  | ...              |  ...               | hoe maak ik de    |                     |
+  | ...              |  ...               | header en main van|                     |
+  | ...              |  ...               | mijn About Moco   |                     |
+  | ...              |  ...               | Page?             |                     |
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
+  - Het maken van een responsive menu is makkelijker dan gedacht
+  - De website ziet er goed uit
+  - Niet heel handig dat ik vanuit Desktop ben gestart maar dat heb ik opgelost
   - ...
 
 </details>
@@ -209,27 +215,36 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  De screenreader leest alles voor, alleen moet ik de alt tekst aanpassen bij sommige foto's
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
+  de alt tekst aanpassen bij bepaalde images
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  de Tab knop werkte nog niet voor alles.
+  De website is goed te gebruiken met pijltjes toetsen.
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+
+    Links (a href) toevoegen in de Li zodat je kan Tabben.
 
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  De Website is goed te gebruiken als je een motorische beperking hebt, de buttons zijn niet te klein 
+  en alles is goed te gebruiken en te klikken.
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  De tekst is groot genoeg,
+  Images zijn groot genoeg,
+  Dark mode doet het nog niet,
+
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+
+  Dark mode toevoegen.
 
 </details>
 
@@ -245,24 +260,39 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+  Dit ging goed:
+  Het maken van de tweede pagina
+  Het toevoegen en Stylen van de content
+  Het toevoegen van de finishing touches
+
+  Dit was Lastig:
+  Het maken van een automatische image slider
+  Het Stylen van de content naar het midden van de pagina
+
+
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+  | Mike            | Quinesha            | Deniz         | Michelle            |
+  | ---             | ---                 | ---           | ---                 |
+  | Hoe maak ik een | Hoe plaats ik het   | 1. hoe fix ik | Hoe zorg ik evoor   |
+  | Automatische    | best een button op  | mijn header   | dat mijn teksten    |
+  | image carousel  | een bepaalde plek   | 2.Hoe zet ik  | niet over mijn      |
+  | ...             | Hoe maak ik een     | een lijn bij  | sticky header       |
+  | ...             | Circel met een icon | mijn footer   | floaten             | 
+  | ...             | er in               | 3.Hoe maak ik |                     |
+  | ...             | Hoe zorg ik dat een | een cookies   |                     |
+  | ...             | plaatje niet de     | button        |                     |
+  | ...             | bovenkant van een   |               |                     |
+  | ...             | button overlapt     |               |                     |
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Carousel maken kan met animaties of je moet echt een carousel maken die verstopt zit
+  - De tekst goed alignen komt vanzelf wel
+  - De website ziet er goed uit
 
 </details>
 
@@ -276,19 +306,46 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/halloffamedarkmode.png" width="375px" alt="uitomst opdracht 1 darkmode">
+
+  <img src="readme-images/halloffamelightmode.png" width="375px" alt="uitomst opdracht 1 lightmode">
+
+  <img src="readme-images/vettel_Lightmode.png" width="375px" alt="uitomst opdracht 1 pagina 2 lightmode">
+
+  <img src="readme-images/vettel_darkmode.png" width="375px" alt="uitomst opdracht 1 pagina 2 darkmode">
+
 
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+ <img src="readme-images/halloffamelightmode.png" width="375px" alt="uitomst opdracht 1 lightmode">
 
+ <img src="readme-images/halloffamedarkmode.png" width="375px" alt="uitomst opdracht 1 darkmode">
+
+
+  Wat voornamelijk goed ging was het werken met Grid en Flexbox, in het begin had ik hier nogal wat moeite mee
+  maar naar mate ik er meer mee begon te werken, hoe makkelijk het begon te worden.
+
+  Wat ook goed ging en waar ik zeer trots op ben is het responsive maken van de website. Ik had helaas de fout gemaakt door groot te beginnen, waardoor de uiteindelijke versie erg raar werdt opgebouwd. Ik heb dit uiteindelijk opgelost door simpel weg de code om te draaien zodat het van small screen naar large screen ging. 
+
+  Dit heb ik geleerd:
+  Hoe CSS Grid werkt,
+  Hoe ik een responsive menu kan maken,
+  Hoe ik een responsive Grid maak,
+  Hoe ik de website het beste responsive kan maken,
+  Hoe ik een website met darkmode kan maken.
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/nietgelukt1.png" width="375px" alt="bummer">
+  <img src="readme-images/nietgelukt2.png" width="375px" alt="bummer">
+  <img src="readme-images/nietgelukt3.png" width="375px" alt="bummer">
+
+  Wat voornamelijk lastig was, was in de laatste week het maken van de tweede pagina. Hier zat namelijk 2 image carousels in die zowel automatisch als handmatig doorheen gescrolld kon worden. Het is niet gelukt om dit 100% te doen dus heb ik ipv er van een animatie gemaakt die er doorheen gaat. 
+
+  Wat ook lastig was, was met de responsive header ervoor zorgen dat het naast elkaar kwam. Dit is jammer genoeg ook niet gelukt. (colomn moest namelijk 4 items displayen naast elkaar). Ook is het niet gelukt om de teksten op de tweede pagina compleet te alignen naar het midden zoals ze op de echte website wel hebben.
 </details>
 
 
@@ -302,8 +359,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. animatie: https://www.youtube.com/watch?v=UzJ9odr04cM&ab_channel=Codewithwillx
+  2. Jop Molenaar
+  3. menu button: https://codepen.io/shooft/pen/bGvxPmP
+  4. Bron voor alle foto's: https://www.formula1.com/en/drivers/hall-of-fame.html
+  5. Bron voor de foto's 2e pagina: https://www.formula1.com/en/drivers/hall-of-fame/Sebastian_Vettel.html
+  6. Bron voor schaduwen: https://www.w3schools.com/css/css3_shadows_box.asp
 
 </details>
