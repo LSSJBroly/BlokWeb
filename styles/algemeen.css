@@ -1,0 +1,387 @@
+*, *::after, *::before {
+	font-family: Forumla1-Regular;
+  box-sizing:border-box;  
+  	margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: Forumla1-Regular;
+    src: url(../Fonts/F1-Font/Formula1-Regular.otf) format("opentype");
+  }
+
+button, summary {
+	cursor: pointer;
+}
+
+
+
+
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+	/* startje */
+	--color-texthead:#eee;
+	--color-text:#111;
+	--color-background:#eee;
+	--color-header: hsl(2deg 100% 44%);
+	--color-ulbackground: #fff;
+	--button-color: hsl(2deg 100% 44%);
+	--footer-color: hsl(240deg 18% 10%);
+    --color-footer2: hsl(240deg 6% 23%);
+}
+
+
+
+
+
+/****************/
+/* JOUW STYLING */
+/****************/
+
+/* jouw code */
+
+body {
+  color:var(--color-text);
+  background-color:var(--color-background);
+}
+
+header{
+	position:sticky;
+  top:0;
+  background-color: var(--color-header);
+  display: flex;
+  justify-content: space-evenly;
+  z-index: 100;
+}
+
+
+
+
+header button{
+	padding:.75em;
+  
+  /* icon en tekst met gap-je naast elkaar */
+  display:flex;
+  align-items:center;
+  gap:.25em;
+  
+  /* standaard styling aanpassen */
+  appearance:none;
+  border:none;
+  border-radius:0 0 .5em .5em; 
+  font:inherit;
+  text-align:center;
+  color:var(--color-texthead);
+  background-color: var(--button-color);
+  
+  /* JOUW CODE HIER - stap 2 */
+  z-index:100;
+  position:relative;
+  top:100%;
+  
+  order: 1;
+
+}
+
+header button img {
+	height:1em;
+	
+  }
+  
+  /* als het menu open is */
+  header button.openMenu img {
+	/* JOUW CODE HIER - stap 6 */
+	/* url kruisje: https://assets.codepen.io/274456/ui-icon-cross.svg */
+	content:url(https://assets.codepen.io/274456/ui-icon-cross.svg);
+  }
+
+  header nav{
+
+	position:fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	
+	inset:0;
+	
+	background-color: var(--color-header);
+	
+	
+	transform:translatey(-100%);
+	transition:.3s;
+}
+
+header nav.open {
+	transform:translateY(0%);
+/* 	transition:2s; */
+	left: 0;
+	right: 0;
+	top: 5em;
+	bottom: 20em;
+	display: flex;
+}
+
+header nav ul{
+	list-style: none;
+	margin: 0;
+	padding: 1rem;
+	/* display: grid; */
+	gap: 1em;
+	grid-template-columns: 6fr 6fr 6fr 6fr 6fr 6fr 6fr 6fr;
+	overflow: auto;
+	align-items: center;
+}
+
+header nav ul li{
+	/* margin: 1em; */
+	padding: .3em;
+	font-size: 1em;
+	box-shadow: 2px 2px white;
+	border-radius: 0px 0px 10px 0px;
+}
+
+header a:first-of-type img{
+	width: 6em;
+	padding: .5em;
+	
+}
+
+header a:nth-of-type(2) img{
+	height: 3.2em;
+	padding: 0;
+	margin: 0;
+	z-index:100;
+}
+
+header a{
+	padding: 0;
+	text-decoration: none;
+	color: var(--color-texthead);
+	z-index:100;
+}
+
+header a:nth-of-type(1){
+	order: 2;
+}
+
+header a:nth-of-type(2){
+	order:3;
+	display: flex;
+	padding: 1em;
+	align-items: center;
+
+}
+
+footer{
+	background-color: var(--footer-color);
+	color: var(--color-texthead);
+	justify-items: center;
+    text-decoration: none;
+}
+
+footer section:nth-of-type(2) ul{
+	list-style: none;
+	display: flex;
+	margin: 0;
+	padding: 1rem;
+	gap: 1em;
+	align-items: center;
+}
+
+footer ul:nth-of-type(2){
+	margin: 0;
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--color-texthead);
+}
+
+footer p{
+	padding: 1em;
+	font-size: 1em;
+	text-align: center;
+}
+
+footer section::nth-of-type(1) ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    float: right;
+
+}
+
+footer section:nth-of-type(1) ul:nth-of-type(2) li{
+    border: solid;
+    padding: 8px;
+    border-color: black;
+    border-radius: 10px 10px 10px 10px;
+   margin: 8px;
+   float: flex-end;
+}
+
+footer section:nth-of-type(1) ul:nth-of-type(1){
+    padding: 10px 0 0 0;
+}
+
+footer section:nth-of-type(1) ul:nth-of-type(1) img{
+    width: 10em;
+}
+
+footer section:nth-of-type(1) ul:nth-of-type(2) img{
+    width: 2em;
+}
+
+footer section:nth-of-type(3){
+    padding: 1em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer section:nth-of-type(3) p{
+    padding: 1em;
+    font-size: .8em;
+}
+
+footer a img{
+	width: 6em;
+	padding: .5em;
+	
+}
+
+/* deze code komt van zowel Sanne als de studenten assistenten */
+@media (min-width: 67em) {
+	main ul { 
+		grid-template-columns: 15em 15em 15em 15em;
+	}
+	
+	header button{
+		display: none;
+		
+	}
+
+	header nav{
+		position:static;
+		transform:none;
+	}
+
+	header nav ul{
+		display: grid;
+	}
+
+	header nav ul li{
+		box-shadow: 2px 2px white;
+		border-radius: 0px 0px 10px 0px;
+	}
+
+	header a:nth-of-type(1){
+		order: 0;
+	}
+	
+    footer{
+        margin: 0;
+    }
+
+    footer section:nth-of-type(1){
+        display: flex;
+        padding: 0 1em 1em 1em;
+        background-color: var(--color-footer2);
+        width: 100%;
+    }
+
+    footer section:nth-of-type(1) ul{
+        list-style: none;
+        flex-direction: row;
+        align-content:start ;
+    }
+
+    footer section:nth-of-type(1) ul:nth-of-type(2){
+        padding-left: 20em;
+    }
+
+    footer section:nth-of-type(1) ul:nth-of-type(2) li{
+        border: solid;
+        padding: 8px;
+        border-color: black;
+        border-radius: 10px 10px 10px 10px;
+       margin: 8px;
+       float: flex-end;
+    }
+
+    footer section:nth-of-type(2){
+        max-width: 60em;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 8em 8em 8em 8em 8em 8em;
+        gap: 2em;
+        box-shadow: 2px 2px grey;
+	    border-radius: 0px 0px 10px 0px;
+        border-width: 8px;
+    }
+
+	footer ul{
+        display: flex;
+        flex-direction: column;
+	}
+
+}
+
+
+
+@media (max-width: 41em) {
+	main ul{
+		grid-template-columns: 20em
+	}
+
+	
+
+}
+
+
+@media (prefers-color-scheme:dark) {
+	:root{
+		--clr-texthead:white;
+	--clr-text:white;
+	--clr-background: #2D2D2D;
+	--clr-header: #520000;
+	--clr-ulbackground: #7E7E7E;
+	--button-clr: #520000;
+	}
+
+    body{
+        background-color: var(--clr-background);
+    }
+
+	header{
+		background-color: var(--clr-header) ;
+	}
+
+	header nav{
+		background-color: var(--clr-header);	
+	}
+
+	header button {
+		background-color: var(--button-clr);
+	}
+
+	main{
+		background-color: var(--clr-background);
+		color: var(--clr-text);
+	}
+
+	main ul li{
+		background-color: var(--clr-ulbackground);
+		color: var(--clr-text);
+	}
+
+	main ul li h4{
+		color: var(--clr-text);
+	}
+
+
+}
