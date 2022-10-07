@@ -1,0 +1,113 @@
+
+
+main h1 {
+	display: flex;
+	justify-content: center;
+	padding: 1.25em 1.25em 0em 1.25em;
+}
+
+main ul:first-of-type{
+	padding-top: 2.25em;
+}
+
+main ul {
+	/* border: solid; */
+
+	
+	list-style: none;
+	text-decoration: none;
+	display: grid;
+	justify-content: center;
+	grid-template-columns: 15em 15em;
+	gap:.25em;
+	padding: .25em .25em 0 .25em;
+	
+}
+
+main ul:last-of-type{
+	padding-bottom: 2em;
+}
+
+main ul li{
+	background-color: var(--color-ulbackground);
+	height: 15em;
+	width: 100%;
+}
+
+main ul li a{
+	display: flex;
+	flex-direction: column;
+}
+
+
+main ul li h4 {
+	margin: 1em;
+	color: var(--color-text);
+}
+
+
+main ul li img {
+	width: 100%;
+	order: -1;
+}
+
+
+
+
+
+
+
+@media (max-width: 32em) {
+	main ul{
+		grid-template-columns: 20em;
+	}
+
+	
+
+}
+
+
+@media (prefers-color-scheme:dark) {
+	:root{
+		--clr-texthead:white;
+	--clr-text:white;
+	--clr-background: #2D2D2D;
+	--clr-header: #520000;
+	--clr-ulbackground: #7E7E7E;
+	--button-clr: #520000;
+	}
+
+	header{
+		background-color: var(--clr-header) ;
+	}
+
+	header nav{
+		background-color: var(--clr-header);	
+	}
+
+	header button {
+		background-color: var(--button-clr);
+	}
+
+	main{
+		background-color: var(--clr-background);
+		color: var(--clr-text);
+	}
+
+	main ul li{
+		background-color: var(--clr-ulbackground);
+		color: var(--clr-text);
+	}
+
+	main ul li h4{
+		color: var(--clr-text);
+	}
+
+
+}
+
+
+/* @media (min-width: 375px) {
+	nav a img {justify-content: center;}
+} */
+

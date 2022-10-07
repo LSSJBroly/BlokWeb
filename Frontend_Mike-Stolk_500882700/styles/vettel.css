@@ -1,0 +1,146 @@
+
+
+main{
+    max-width: 65em;
+    padding: 44px 40px 0px;
+    margin: 0 auto;
+}
+
+main article:nth-of-type(1){
+
+    font-size: 1.2em;
+    text-align: center;
+    color: var(--color-text);
+    line-height: 1.4em;
+}
+
+main article{
+    text-align: center;
+    
+}
+
+main article p:nth-of-type(1){
+    text-align: center;
+}
+
+main article p a{
+    color: var(--color-text);
+}
+
+main article p:nth-of-type(2){
+    font-family: Forumla1-Regular;
+    text-align: center;
+    font-size:0.75em;
+    line-height: 1.4;
+    color: var(--color-text);
+}
+
+main p{
+    /* width: 50em; */
+    padding-top: 1em;
+    text-align: left;
+    font-family: "Titillium Web",Helvetica,sans-serif;
+    font-weight: 400;
+}
+
+/* Hier heb ik een poging gedaan tot het maken van een automatische image slider, dit is echter niet gelukt en dit is het eindresultaat
+ik ben al blij dat het gelukt is om een animatie te maken
+
+Deze code heb ik met behulp van Jop Molenaar een een youtube tutorial gekregen
+Link naar de video:https://www.youtube.com/watch?v=UzJ9odr04cM&ab_channel=Codewithwillx*/
+main section{
+    height: 40em;
+    float: right;
+
+    display:grid;
+	gap:1em;
+}
+
+main section ul img{
+    width:100%;
+	grid-column-start:1;
+	grid-column-end:-1;
+}
+
+main section ul{
+    margin:0;
+	padding:0;
+	list-style:none;
+	
+	width:100%;
+	max-width:16em;
+}
+
+main section li{
+    display:grid;
+	grid-template-columns: 5em 1fr;
+	gap:1em;
+}
+
+
+main ul {
+	margin:0;
+	padding: 1em;
+	list-style:none;
+	
+	display:flex;
+	overflow:auto;
+    float: left;
+}
+
+main ul img {
+	width:15em;
+	display:block;
+}
+
+main p:last-of-type{
+    padding-bottom: 2em;
+}
+
+@media (prefers-color-scheme:dark){
+    :root{
+		--clr-texthead:white;
+	--clr-text:white;
+	--clr-background: #2D2D2D;
+	--clr-header: #520000;
+	--clr-ulbackground: #7E7E7E;
+	--button-clr: #520000;
+	}
+
+
+
+    main article:nth-of-type(1){
+
+        font-size: 1.2em;
+        text-align: center;
+        color: var(--clr-text);
+        line-height: 1.4em;
+    }
+    
+
+    
+    main article p a{
+        color: var(--clr-text);
+    }
+    
+    main article p:nth-of-type(2){
+        font-family: Forumla1-Regular;
+        text-align: center;
+        font-size:0.75em;
+        line-height: 1.4;
+        color: var(--clr-text);
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
